@@ -1,6 +1,6 @@
 # go-self-update
 
-A program that can update itself by replacing its executable file with a new version.
+An application that can update itself by replacing its executable file with a new version.
 
 Using `syscall.Exec` to replace parent process so no new childs are spawned.
 
