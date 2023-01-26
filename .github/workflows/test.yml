@@ -1,0 +1,12 @@
+name: test
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - shell: bash
+        run: echo "$GITHUB_CONTEXT"
